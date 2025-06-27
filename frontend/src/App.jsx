@@ -8,7 +8,7 @@ export default function App() {
     <Routes>
       <Route path='/' element={<LandingPage />} />
       <Route path='/app' element={<Home />} />
-      <Route path='*' element={<NotFound />} />
+      <Route path='/*' element={<NotFound />} />
     </Routes>
   </>
 }
