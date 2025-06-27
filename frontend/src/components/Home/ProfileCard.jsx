@@ -6,7 +6,7 @@ export default function ProfileCard({ profile }) {
       <div className="flex items-start gap-6">
         <div className="relative">
           <img
-            src={`http://192.168.1.5:5000/proxy?url=${encodeURIComponent(profile.profilePicture)}`}
+            src={`https://instaprofilescraper.onrender.com/proxy?url=${encodeURIComponent(profile.profilePicture)}`}
             alt="Profile"
             className="w-24 h-24 rounded-full object-cover"
           />

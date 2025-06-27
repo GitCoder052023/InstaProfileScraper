@@ -16,7 +16,7 @@ export default function useInstagramProfile() {
     setProfile(null);
 
     try {
-      const res = await axios.get(`http://192.168.1.5:5000/api/profile`, {
+      const res = await axios.get(`https://instaprofilescraper.onrender.com/api/profile`, {
         params: { username }
       });
 

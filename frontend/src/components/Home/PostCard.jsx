@@ -4,7 +4,7 @@ export default function PostCard({ post }) {
     return (
         <div className="group relative aspect-square rounded-xl overflow-hidden bg-white/5 hover:scale-105 transition-all duration-300">
             <img
-                src={`http://192.168.1.5:5000/proxy?url=${encodeURIComponent(post.thumbnail)}`}
+                src={`https://instaprofilescraper.onrender.com/proxy?url=${encodeURIComponent(post.thumbnail)}`}
                 alt={`Post ${post.id}`}
                 className="w-full h-full object-cover"
             />
